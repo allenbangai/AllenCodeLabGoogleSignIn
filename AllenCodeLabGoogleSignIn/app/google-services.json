@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "984465466505",
+    "firebase_url": "https://allencodelab-signin.firebaseio.com",
+    "project_id": "allencodelab-signin",
+    "storage_bucket": "allencodelab-signin.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:984465466505:android:0123005f2f1efd4fbed258",
+        "android_client_info": {
+          "package_name": "com.example.allencodelabgooglesignin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "984465466505-k5scobitnuqmbh6dg64pspftvj77s3sh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBAMdqGBMj2OsKqXeIz896ezTrxJjiE_tU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "984465466505-k5scobitnuqmbh6dg64pspftvj77s3sh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

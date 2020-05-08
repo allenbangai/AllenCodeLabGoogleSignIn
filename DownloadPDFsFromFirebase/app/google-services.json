@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "849480812263",
+    "firebase_url": "https://downloadpdfsfromfirebase.firebaseio.com",
+    "project_id": "downloadpdfsfromfirebase",
+    "storage_bucket": "downloadpdfsfromfirebase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:849480812263:android:059485f557fda024b64442",
+        "android_client_info": {
+          "package_name": "com.example.downloadpdfsfromfirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "849480812263-j0pkf5saj9n4n40qq0mdaqihd5rmv72i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAhGfAxNlokFnytdh6B3jzOWAPNjgaDNto"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "849480812263-j0pkf5saj9n4n40qq0mdaqihd5rmv72i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

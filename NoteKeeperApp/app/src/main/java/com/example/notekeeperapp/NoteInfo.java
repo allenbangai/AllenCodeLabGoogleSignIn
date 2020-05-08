@@ -7,32 +7,32 @@ import android.os.Parcelable;
  * Created by Jim.
  */
 
-public final class NoteInfo implements Parcelable {
+public final class CoursesInfo implements Parcelable {
     private CourseInfo mCourse;
     private String mTitle;
     private String mText;
 
-    public NoteInfo(CourseInfo course, String title, String text) {
+    public CoursesInfo(CourseInfo course, String title, String text) {
         mCourse = course;
         mTitle = title;
         mText = text;
     }
 
-    protected NoteInfo(Parcel in) {
+    protected CoursesInfo(Parcel in) {
         mTitle = in.readString();
         mText = in.readString();
     }
 
-    public static final Creator<NoteInfo> CREATOR = new Creator<NoteInfo>() {
+    public static final Creator<CoursesInfo> CREATOR = new Creator<CoursesInfo>() {
         @Override
 
-        public NoteInfo createFromParcel(Parcel in) {
-            return new NoteInfo(in);
+        public CoursesInfo createFromParcel(Parcel in) {
+            return new CoursesInfo(in);
         }
 
         @Override
-        public NoteInfo[] newArray(int size) {
-            return new NoteInfo[size];
+        public CoursesInfo[] newArray(int size) {
+            return new CoursesInfo[size];
         }
     };
 
@@ -69,7 +69,7 @@ public final class NoteInfo implements Parcelable {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
 
-        NoteInfo that = (NoteInfo) o;
+        CoursesInfo that = (CoursesInfo) o;
 
         return getCompareKey().equals(that.getCompareKey());
     }
