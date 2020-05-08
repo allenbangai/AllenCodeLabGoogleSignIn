@@ -31,6 +31,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 mAuth.signOut();
+                startActivity(new Intent(MainActivity.this, LoginActivity.class));
             }
         });
     }
@@ -47,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
         // the GoogleSignInAccount will be non-null.
         GoogleSignInAccount account = GoogleSignIn.getLastSignedInAccount(this);
         if(account == null || currentUser == null){
-            startActivity(new Intent(this, LoginActivity.class));
+            //startActivity(new Intent(this, LoginActivity.class));
         }else{
             messageMain.setText("User already authenticated, Fill free to log out");
         }
